@@ -1,12 +1,3 @@
----
-layout: post
-title: Unity-QuickSheet with Excel Howto
-categories: []
-tags: [QuickSheet]
-published: True
-
----
-
 ## How to work with Excel
 
 This post shows and helps you how to set up and use [Unity-QuickSheet](https://github.com/kimsama/Unity-QuickSheet) with excel. 
@@ -95,7 +86,7 @@ In ***Runtime*** foller should have contain tow files:
 
 See the *your-sheetpage-name*Data.cs file. The class members of the file represent each cells of the sheet page.
 
-{% highlight csharp %}
+
 using UnityEngine;
 using System.Collections;
 
@@ -119,7 +110,7 @@ public class FighterData
 
     ...
 }
-{% endhighlight %}
+
 
 
 
