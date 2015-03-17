@@ -11,7 +11,7 @@ published: True
 
 This post shows and helps you how to set up and use [Unity-QuickSheet](https://github.com/kimsama/Unity-QuickSheet) with excel. 
 
-![Sample Excel file]({{ site.baseurl }}/images/excel_sample.png)
+![Sample Excel file](./images/excel_sample.png)
 
 Before starting, check your spreadsheet page again. It should start without an empty row which means the first row should not be an empty one.
 
@@ -20,18 +20,18 @@ Before starting, check your spreadsheet page again. It should start without an e
 
 First you need thing to do is creating an excel setting file. Simply right click on the Project view and select *'Create > Spreadsheet Tools > Excel'*. It creates a new file which shows various setting to create script files and get data from the specified excel file.
 
-![Create Setting File]({{ site.baseurl }}/images/create_excel_setting.png)
+![Create Setting File](./images/create_excel_setting.png)
 
 Select ***Excel*** menu item then it creates setting file. It may be shown like the following:
 
-![Excel Setting]({{ site.baseurl }}/images/excel_new_setting.png)
+![Excel Setting](./images/excel_new_setting.png)
 
 Let's start to do settinig.
 
 #### File Setting
 
 File setting is setting for what excel file and its sheet page to import.
-![Excel Setting]({{ site.baseurl }}/images/excel_file_setting.png)
+![Excel Setting](./images/excel_file_setting.png)
 
 First you should specify what excel file to import.
 
@@ -47,7 +47,7 @@ An excel file can have one or more sheet pages so you need to decide what sheet 
 
 Importing the specified sheet page shows all column headers of the page. That are neccessary to let you set the type of the each cells.
 
-![Excel Setting]({{ site.baseurl }}/images/excel_type_setting.png)
+![Excel Setting](./images/excel_type_setting.png)
 
 Set the proper type of the cells.
 
@@ -67,7 +67,7 @@ Path setting are concerned with specifying paths where the generated script file
 
 ***Note:*** All paths should be relative without 'Assets/'.`
 
-![Excel Setting]({{ site.baseurl }}/images/excel_path_setting.png)
+![Excel Setting](./images/excel_path_setting.png)
 
 1. ***Template*** indicates a path where template files which are neccessary to generate script files.  In most case you don't need to change it.
 2. ***Runtime*** indicates a path where generated script files which are used on runtime will be put.
@@ -127,11 +127,11 @@ public class FighterData
 
 Creating asset file and importing data from the spreadsheet file into that created asset file is done just by simply doing reimport any *xls* or *xlsx* file within Project view.
 
-![Excel Setting]({{ site.baseurl }}/images/excel_reimport.png)
+![Excel Setting](./images/excel_reimport.png)
 
 Reimporting *xls* or *xlsx* file will automatically create an asset file which has same file name as the sheet page name(*not excel file name*) and automatically import data from the sheet page of the excel file into the created asset file. 
 
-![Asset file]({{ site.baseurl }}/images/excel_imported.png)
+![Asset file](./images/excel_imported.png)
 
 It's done. Hope you enjoy that!
 
